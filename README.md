@@ -3,7 +3,9 @@ The spark job that runs SPARQL query on file from S3
 
 
 To package
-```sbt assembly```
+```bash
+sbt assembly
+```
 
 Copy jar to S3. Copy jar from S3 to master node and run unsing:
 ```bash
